@@ -19,7 +19,7 @@ int variableArguments(int arg_count, ...)
 {
 	va_list std;
 	int count = 0, max = 90;
-	va_start(std, arg_count);
+	va_start(std, arg_count); //to start,for accessing elements
 	for (; arg_count; arg_count--)
 	{
 		if (va_arg(std, int) > max)

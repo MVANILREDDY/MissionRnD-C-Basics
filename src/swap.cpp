@@ -13,7 +13,7 @@ NOTES:
 
 void swap(int *a, int *b)
 {
-	*a = *a^*b;
+	*a = *a^*b; //swapping using bitwise_xor.
 	*b = *a^*b;
 	*a = *a^*b;
 	
